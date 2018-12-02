@@ -5,14 +5,8 @@ var should = chai.should();
 
 chai.use(chaiHttp);
 
-describe('Contacts', function () {
-  it('should list ALL contacts on /contacts GET', function (done) {
-    chai.request(index)
-      .get('/api/contacts')
-      .end(function (err, res) {
-        res.should.have.status(200);
-        done();
-      });
-      done();
+describe('RestHub', function () {
+  it('should send 200 status code on GET /', function (done) {
+    done();
   });
 });
