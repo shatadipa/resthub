@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "./node_modules/.bin/mocha --reporter spec --exit",
-    "build": "echo 'Hello World'"
+    "zip": "zip -r RestHub.zip ."
   },
   "author": "",
   "license": "ISC",
